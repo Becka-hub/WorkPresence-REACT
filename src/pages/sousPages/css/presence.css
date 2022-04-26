@@ -1,0 +1,111 @@
+.Presence{
+    height: 90vh;
+    width: 100%;
+    padding: 10px;
+    background-color: #0b1218;
+}
+.Presence .bloc_presence{
+    padding: 20px;
+    background-color: #131d28;
+}
+.Presence .bloc_presence .select{
+    display: flex;
+}
+.Presence .bloc_presence .select select{
+    margin-right: 20px;
+    width: 100px;
+    border-bottom: 2px solid rgb(255, 60, 0);
+}
+.Presence .bloc_presence .select select:focus{
+    box-shadow: none!important;
+}
+.Presence .bloc_presence .select button{
+    height: 38px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    background-color: rgb(255, 60, 0);
+    transition: 0.5s ease-out;
+}
+.Presence .bloc_presence .select button:focus{
+    box-shadow: none!important;
+}
+.Presence .bloc_presence .select button:hover{
+    transform: scale(1.1);
+}
+.Presence .bloc_presence .select .date{
+    color: white;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.Presence .bloc_presence .ajouterPresence button{
+    background: rgba(255, 60, 0, 0.212);
+    color: white!important;
+    border-top: 1px solid rgb(255, 60, 0);
+    border-bottom: 1px solid rgb(255, 60, 0);
+    transition: 0.5s ease;
+}
+.Presence .bloc_presence .ajouterPresence button:hover{
+    transform: scale(1.1)
+}
+.Presence .bloc_presence .ajouterPresence button:focus{
+    box-shadow: none!important;
+}
+
+.Presence .table_thead{
+    background: white;
+    color: rgb(255, 60, 0);
+}
+.Presence table td{
+    color: white;
+}
+.Presence table td i{
+    font-size: 20px;
+    color: white;
+    background-color:rgba(255, 60, 0, 0.212);
+    border-top: 1px solid rgb(255, 60, 0);
+    border-bottom: 1px solid rgb(255, 60, 0);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.Presence table td i:hover{
+    transform: scale(1.1);
+}
+.Presence .btn_sortie{
+    background-color: white;
+    color: rgb(255, 60, 0);
+    height: 33px;
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+    border-radius: 4px;
+    margin-top: 8px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.Presence .btn_sortie:hover{
+    background-color: rgb(255, 60, 0);
+    color: white;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1080px) {
+    .Presence{
+        height: auto!important;
+    }
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+    .Presence .bloc_presence .select{
+        display: block!important;
+    }
+    
+}
+

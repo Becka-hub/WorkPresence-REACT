@@ -1,0 +1,83 @@
+.Profile{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.Profile .bloc_profile .bloc_logo{
+    background-color: #131d28;
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+}
+.Profile .bloc_profile .bloc_logo img{
+    width: 100%;
+    height: 100%;
+}
+.Profile .bloc_profile .nom_utilisateur{
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+.Profile .bloc_profile .nom_utilisateur h3{
+    color:white;
+}
+.Profile .bloc_profile .nom_utilisateur i{
+    margin-right: 10px;
+    color: rgb(255, 60, 0);
+}
+.Profile .bloc_profile .bloc_decription{
+    background-color: #131d28;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+}
+.Profile .bloc_profile .bloc_decription h4{
+ color: white;
+ margin-top: 10px;
+}
+.Profile .bloc_profile .bloc_decription i{
+    margin-right: 10px;
+}
+.Profile .bloc_profile .bloc_employe{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #131d28;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.Profile .bloc_profile .bloc_employe .titre_employe{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    border-bottom:2px solid rgb(255, 60, 0);
+}
+.Profile .bloc_profile .bloc_employe .titre_employe i{
+    margin-right: 10px;
+    color: rgb(255, 60, 0);
+}
+.Profile .bloc_profile .bloc_employe .nombre_employe{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    border-bottom:2px solid rgb(255, 60, 0);
+}
+@media screen and (min-width: 320px) and (max-width: 1080px) {
+    .Profile{
+        height: auto!important;
+    }
+    
+}

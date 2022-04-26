@@ -1,0 +1,47 @@
+.Result{
+    height: 100vh;
+    width: 100%;
+    background-color: #131d28;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.Result .logo{
+    width: 150px;
+    height: 150px;
+    margin-top: 60px;
+}
+.Result .logo img{
+    width: 100%;
+    height:100%;
+}
+.Result .merci{
+    display: flex;
+    margin-top: 20px;
+}
+.Result .merci h2{
+    color: white;
+}
+.Result .merci h2 strong{
+    color: rgb(255, 60, 0);
+}
+.Result .merci .emojy{
+    width: 60px;
+    height: 75px;
+    margin-top: -15px;
+}
+.Result .merci .emojy img{
+    height: 100%;
+    width: 100%;
+}
+.Result .description{
+    margin-top: 20px;
+}
+.Result .description h4{
+    color: white;
+}
+
+.Result .description h4 span{
+    padding: 10px;
+    background-color: #0b1218;
+    
+}

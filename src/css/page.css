@@ -1,0 +1,31 @@
+.page{
+    margin-left: 20vw;
+    height: 100%;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1080px) {
+    .page{
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 766px) {
+    .page{
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 479px) {
+    .page{
+        margin-left: 0;
+    }
+
+}
+
+
+@media screen and (min-width: 280px) and (max-width: 375px) {
+    .page{
+        margin-left: 0;
+    }
+
+}

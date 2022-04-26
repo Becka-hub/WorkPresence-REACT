@@ -1,0 +1,21 @@
+.absent{
+    padding: 10px;
+    background-color: #0b1218;
+}
+.absent h4{
+    font-weight: 700;
+    color: rgb(255, 60, 0);
+}
+.absent .absent_details{
+   display: flex;
+}
+.absent h6{
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+ 
+.absent button:focus{
+box-shadow: none!important;
+}

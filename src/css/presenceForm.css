@@ -1,0 +1,16 @@
+.ajoute_presence h4{
+    font-weight: 700;
+}
+.ajoute_presence button{
+    height: 38px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    background-color: rgb(255, 60, 0);
+}
+.ajoute_presence button:hover{
+    color: white;
+}
+.ajoute_presence button:focus{
+    box-shadow: none!important;
+}

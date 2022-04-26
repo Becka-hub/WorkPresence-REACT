@@ -1,0 +1,129 @@
+.Employe {
+    height: 90vh;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.Employe .bloc_employe {
+    padding: 20px;
+    background-color: #131d28;
+}
+.Employe .bloc_employe .titre_header{
+
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+}
+.Employe .bloc_employe .titre_header div{
+    display: flex;
+}
+.Employe .bloc_employe .titre_header div i{
+    font-size: 18px;
+    color:rgb(255, 60, 0);
+    margin-top: 5px;
+}
+.Employe .bloc_employe .titre_header div h4{
+    margin-left: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.Employe .bloc_employe .form_recherche {
+    width: 300px !important;
+    border-bottom: 2px solid rgb(255, 60, 0);
+    border-radius: 0 !important;
+}
+
+.Employe .bloc_employe .form {
+    display: flex;
+}
+
+.Employe .bloc_employe .form button {
+    background-color: white;
+    margin-left: 10px;
+    color: rgb(255, 60, 0);
+}
+.Employe .bloc_employe .form button:focus{
+    box-shadow: none!important;
+}
+
+.Employe .bloc_employe .form_recherche:focus {
+    box-shadow: none !important;
+}
+
+.Employe .bloc_employe .btn_ajoute {
+    background: rgba(255, 60, 0, 0.212);
+    color: white !important;
+    border-top: 1px solid rgb(255, 60, 0);
+    border-bottom: 1px solid rgb(255, 60, 0);
+    transition: 0.5s ease;
+}
+
+.Employe .bloc_employe .btn_ajoute:hover {
+    transform: scale(1.1);
+}
+
+.Employe .bloc_employe .btn_ajoute:focus {
+    box-shadow: none !important;
+}
+
+.Employe .bloc_employe .table_thead {
+    background: white;
+    color: rgb(255, 60, 0);
+}
+
+.Employe .bloc_employe table td {
+    color: white;
+}
+
+.Employe .bloc_employe table td i {
+    font-size: 20px;
+    color: white;
+    background-color: rgba(255, 60, 0, 0.212);
+    border-top: 1px solid rgb(255, 60, 0);
+    border-bottom: 1px solid rgb(255, 60, 0);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.Employe .bloc_employe table td i:hover {
+    transform: scale(1.1);
+}
+
+.Employe .bloc_employe table .image_employe {
+    width: 60px;
+    height: 30px;
+}
+
+.Employe .bloc_employe table .image_employe img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pagination {
+    padding-left: 30px !important;
+    padding-right: 20px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    background-color: rgba(255, 60, 0, 0.212);
+    border-top: 1px solid rgb(255, 60, 0);
+    border-bottom: 1px solid rgb(255, 60, 0);
+    border-radius: 8px;
+}
+
+.MuiPaginationItem-textSecondary {
+    color: white !important;
+}
+
+.MuiPaginationItem-textSecondary.Mui-selected {
+    background-color: rgb(255, 60, 0) !important;
+}

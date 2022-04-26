@@ -1,0 +1,44 @@
+.nav_bloc{
+    background-color: #131d28;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    height: 10vh;
+    padding-right: 25px;
+    display: flex;
+    justify-content:space-between;
+}
+.nav_bloc .titre{
+    display: flex;
+}
+.nav_bloc .titre .titre_logo{
+    width: 40px;
+    height: 40px;
+}
+.nav_bloc .titre .titre_logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 60, 0);
+}
+.nav_bloc .titre h4{
+    color: white;
+    font-weight: 700;
+    margin-left:10px;
+    margin-top: 5px;
+}
+.nav_bloc i{
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+}
+
+.button_responsive {
+    display: none;
+}
+
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+    .button_responsive {
+        display: block;
+    }
+}
